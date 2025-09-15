@@ -1,5 +1,7 @@
 # RDCMan (Remote Desktop Connection Manager)
 
+Download the latest release from [Releases](https://github.com/nodemarch/RDCMan/releases/tag/v3.1)
+
 ## Introduction
 
 RDCMan facilitates the management of multiple remote desktop connections. It proves invaluable when handling server labs that require frequent access to each machine, such as automated check-in systems or data centers.
@@ -161,14 +163,6 @@ Access via **\[Tool.Options]**. Modify client area size globally; most server-sp
 * *Client Area Size*: resize panel; also via **\[View\.Client size]**
 * *Thumbnail Unit Size*: absolute pixels or percentage
 
-### Hot Keys
-
-Remote desktop hot keys are configurable; ALT keys must remain ALT.
-
-### Experience
-
-Adjust Windows UI features to improve performance. Options include desktop backgrounds, drag content, animations, and themes.
-
 ### Full Screen
 
 * *Show full screen connection bar / Auto-hide*
@@ -223,10 +217,6 @@ New-SelfSignedCertificate -KeySpec KeyExchange -KeyExportPolicy Exportable -Hash
 ```
 
 Export with private key for other machines.
-
-### Profile Management
-
-Add, edit, remove credential profiles. Updates can be via dialog or group properties.
 
 ## List Remote Sessions
 
