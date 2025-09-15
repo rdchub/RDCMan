@@ -259,4 +259,3 @@ Read from `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\RDCMan`. Example: `Dis
 * *Smartcard logon?* Enable *Redirect smart cards* in Local Resources.
 * *Gateway Error 50331656?* Use FQDN.
 * *Auto-logon?* Enable Group Policy: "Always prompt client for password" = Disabled.
-* *Resize remote desktop?* Disconnect and reconnect; Display Settings allow auto-reconnect with new resolution.
