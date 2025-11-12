@@ -1,6 +1,7 @@
 # RDCMan (Remote Desktop Connection Manager)
 
-Download the latest release from [Releases](https://github.com/nodemarch/RDCMan/releases/tag/v3.1)
+Download the latest release from Releases:
+https://github.com/oscdimg/RDCMan/releases/tag/v3.1
 
 ## Introduction
 
@@ -238,13 +239,8 @@ Use **Ctrl+F** or **Edit.Find**. Matches full name (`group\server`), context men
 
 ## Credential Profiles
 
-Store credentials globally or per file. Useful for multiple groups without common ancestors. Update via profile dialog or group properties. File scope uses file encryption; global uses Default Group Settings.
+Store credentials globally or per file. Useful for multiple groups without common ancestors, update via profile dialog or group properties. File scope uses file encryption; global uses Default Group Settings
 
 ## Policies
 
-Read from `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\RDCMan`. Example: `DisableLogOff` DWORD disables logoff command.
-
-## FAQ
-
-* *Smartcard logon?* Enable *Redirect smart cards* in Local Resources.
-* *Gateway Error 50331656?* Use FQDN.
+Read from `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\RDCMan`. Example: `DisableLogOff` DWORD disables logoff command
