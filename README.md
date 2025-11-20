@@ -1,7 +1,7 @@
 ## Download RDCMan (Remote Desktop Connection Manager)
 
 Download the latest release from Releases:       
-https://github.com/oscdimg/RDCMan/releases/tag/v3.1
+https://github.com/regbyte/RDCMan/releases/tag/v3.1
 
 ## Introduction
 
@@ -222,19 +222,3 @@ Export with private key for other machines.
 ## List Remote Sessions
 
 **\[Session.List Sessions]** lists remote sessions. RDCMan account requires Query Information, Disconnect, and Logoff permissions. Sessions must be directly reachable.
-
-## Command Line
-
-Open last session files by default; overrides:
-
-* `/reset` – reset preferences
-* `/noopen` – start empty
-* `/c server1[,server2...]` – connect specified servers
-* `/reconnect` – reconnect previously connected servers
-* `/noconnect` – skip reconnect prompt
-
-## Find Servers
-
-Use **Ctrl+F** or **Edit.Find**. Matches full name (`group\server`), context menu available.
-
-## Credential Profiles
