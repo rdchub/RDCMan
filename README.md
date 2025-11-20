@@ -238,5 +238,3 @@ Open last session files by default; overrides:
 Use **Ctrl+F** or **Edit.Find**. Matches full name (`group\server`), context menu available.
 
 ## Credential Profiles
-
-Store credentials globally or per file. Useful for multiple groups without common ancestors, update via profile dialog or group properties, file scope uses file encryption; global uses Default Group Settings
