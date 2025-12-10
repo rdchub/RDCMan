@@ -220,5 +220,3 @@ New-SelfSignedCertificate -KeySpec KeyExchange -KeyExportPolicy Exportable -Hash
 Export with private key for other machines.
 
 ## List Remote Sessions
-
-**\[Session.List Sessions]** lists remote sessions. RDCMan account requires Query Information, Disconnect, and Logoff permissions. Sessions must be directly reachable.
