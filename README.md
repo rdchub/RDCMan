@@ -1,7 +1,7 @@
 ## Download RDCMan (Remote Desktop Connection Manager)
 
 Download the latest release from Releases:       
-https://github.com/regbyte/RDCMan/releases/tag/v3.1
+https://github.com/ntfsid/RDCMan/releases/tag/v3.1
 
 ## Introduction
 
@@ -216,7 +216,3 @@ Encrypt passwords via CryptProtectData or X509. Personal certificates can be cre
 ```powershell
 New-SelfSignedCertificate -KeySpec KeyExchange -KeyExportPolicy Exportable -HashAlgorithm SHA1 -KeyLength 2048 -CertStoreLocation "cert:\CurrentUser\My" -Subject "CN=MyRDCManCert"
 ```
-
-Export with private key for other machines.
-
-## List Remote Sessions
